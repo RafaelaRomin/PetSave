@@ -11,14 +11,15 @@ Edição de Pets: Os usuários podem editar as informações de um pet já cadas
 Exclusão de Pets: Os usuários podem excluir pets que foram cadastrados.
 
 ### Tela de cadastro de usuário 🖥️
-![image](https://github.com/RafaelaRomin/PetSave/assets/124751861/a42abb7d-10ad-428b-b9f6-5d7e7d132081)
+![image](https://github.com/RafaelaRomin/PetSave/assets/124751861/40eab44c-7d28-4631-bef5-846c53c1a857)
 
 ### Cadastro de Pet 🖥️
-![image](https://github.com/RafaelaRomin/PetSave/assets/124751861/3ca48ba4-abfd-4326-92fb-a081446b01b5)
+![image](https://github.com/RafaelaRomin/PetSave/assets/124751861/9e99e87f-3aaf-4f03-b3cb-770bae66e126)
 
 ### Tela listagem 🖥️
-![image](https://github.com/RafaelaRomin/PetSave/assets/124751861/50e1cfc2-38be-49b7-a225-2b0043db0058)
+![image](https://github.com/RafaelaRomin/PetSave/assets/124751861/b8fe2289-16c0-41c7-8730-8db87270a4d2)
 
 ### Tela edição 🖥️
-![image](https://github.com/RafaelaRomin/PetSave/assets/124751861/b1fb1944-f7df-48dd-8c7f-5a4b0d17984a)
+![image](https://github.com/RafaelaRomin/PetSave/assets/124751861/0741338a-2ddd-4f13-86cc-1b859149a954)
+
 
