@@ -1,5 +1,5 @@
 ## Pet Save Web Project 
-### Cadastro de animais de companhia disponíveis para doação de sangue, bem como animais receptores que necessitam de um doador. 
+### Cadastro de animais de estimação convencionais disponíveis para doação de sangue (cães e gatos) e receptores.
 
 Pet Save é um projeto web criado com HTML, CSS e JavaScript, construído utilizando a MockAPI como uma API simulada para armazenar os dados dos usuários e pets. O objetivo do projeto é permitir o cadastro de usuários (tutores de animais de estimação) e a gestão dos pets associados a esses usuários. O projeto foi desenvolvido utilizando o Visual Studio Code (VSCode).
 
