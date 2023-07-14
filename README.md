@@ -6,9 +6,13 @@ Pet Save é um projeto web criado com HTML, CSS e JavaScript, construído utiliz
 ### Funcionalidades:
 
 Cadastro de Usuário: Os usuários podem se cadastrar no sistema informando os dados solicitados.
+
 Cadastro de Pet: Os usuários podem cadastrar pets, preenchendo informações como nome, espécie e descrição.
+
 Listagem de Pets: Os pets cadastrados são exibidos em uma lista, permitindo ao usuário visualizar as informações dos animais cadastrados.
+
 Edição de Pets: Os usuários podem editar as informações de um pet já cadastrado, como nome, espécie, descrição.
+
 Exclusão de Pets: Os usuários podem excluir pets que foram cadastrados.
 
 ### Tela de cadastro de usuário 🖥️
