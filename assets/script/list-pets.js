@@ -17,7 +17,7 @@ function getProjects() {
 }
 
 function goToEdit(id) {
-    window.location.href=`project-create-edit-pet.html?id=${id}`;
+    window.location.href=`create-edit-pet.html?id=${id}`;
 }
 
 function deletePet(id) {
