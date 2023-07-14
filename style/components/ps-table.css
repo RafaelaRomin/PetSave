@@ -1,0 +1,72 @@
+.ps-table {
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: white;
+    padding: 28px 32px;  
+    padding-top: 28px;
+}
+
+.ps-table >.head {
+    font-size: calc(var(ps-font-size-base) + 6px);
+    font-weight: 600;
+    color: var(--ps-color-gray);
+}
+
+.ps-table >.head>.row {
+    display: grid;
+    grid-template-columns: 1fr 200px 200px;
+
+}
+
+/* .ps-table >.body {
+
+} */
+
+.ps-table >.body>.row {
+    display: grid;
+    padding: 24px 0;
+    grid-template-columns: 1fr 200px 200px;
+    border-bottom: 1px solid var(--ps-color-gray-light);
+}
+
+.ps-table >.body>.row:last-child {
+    border-bottom: none;
+}
+
+/* .ps-table >.body>.row>.pet-description {
+
+} */
+
+.ps-table >.body>.row>.pet-description>.pet {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* .ps-table >.body>.row>.pet-description>.description {
+
+} */
+
+.ps-table >.body>.row>.specie {
+    margin-top: 16px;
+    font-weight: 600;
+}
+
+/* .ps-table >.body>.row>.actions {
+    
+} */
+
+.ps-table >.body>.row>.actions>.edit {
+    color: var(--ps-color-gray-dark);
+    margin-right: 5px;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.ps-table >.body>.row>.actions>.delete {
+    color: var(--ps-color-danger);
+    margin-left: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 28px;
+}

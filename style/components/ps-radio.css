@@ -1,0 +1,49 @@
+.ps-radio {
+    position: relative;
+    padding-left: 32px;
+    padding-top: 2px;
+    cursor: pointer;
+    font-size: calc(var(--ps-font-size-base)+ 8px);
+    font-family: var(--ps-font-family-base);
+}
+
+.ps-radio > input {
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+.ps-radio >.checkmark {
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    border: 2px solid var(--ps-color-gray-dark);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ps-radio > input:checked ~ .checkmark {
+    background-color: white;
+    border-color: var(--ps-primary-color);
+}
+
+.ps-radio >.checkmark:after {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    content: "";
+    top: 3px;
+    left: 3px;
+    background-color: var(--ps-primary-color);
+    display: none;
+}
+
+.ps-radio > input:checked ~ .checkmark:after {
+    display: block;
+}
+
+
+

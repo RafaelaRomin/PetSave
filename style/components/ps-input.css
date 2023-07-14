@@ -1,0 +1,19 @@
+.ps-input {
+    font-size: calc(var(--ps-font-size-base)+ 8px);
+    font-family: var(--ps-font-family-base);
+    border: none;
+    background: none;
+    border-bottom: 1px solid var(--ps-color-gray-light);
+    outline: none;
+    transition: border-color .5s;
+    padding-bottom: 10px;
+    width: 100%;
+    margin-bottom: 32px;
+}
+.ps-input:focus{
+    border-color: var(--ps-primary-color);
+}
+
+.ps-input::placeholder {
+    color: var(--ps-primary-color-light);
+}

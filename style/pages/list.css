@@ -1,0 +1,22 @@
+
+.ps-list >.ps-wrapper>.main-content>.title-button {
+    margin-top: 70px;
+    display: flex;
+    width: 100;
+    justify-content: space-between;
+}
+
+.ps-list >.ps-wrapper>.main-content>.title-button>.title {
+    font-size: calc(var(--ps-font-size-base) + 30px);
+    font-weight: 620;
+    font-family: var(--font-family-base);
+}
+
+/* .ps-list >.ps-wrapper>.main-content>.title-button>.button-wrapper {
+
+} */
+
+.ps-list >.ps-wrapper>.main-content>.table-wrapper {
+    margin-top: 32px;
+}
+

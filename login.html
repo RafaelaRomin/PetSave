@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Pet Save</title>
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;800&display=swap" rel="stylesheet">
+
+    <!--SETTINGS-->
+    <link rel="stylesheet" href="./style/settings/wrapper.css">
+    <link rel="stylesheet" href="./style/settings/core.css">
+    <link rel="stylesheet" href="./style/settings/color.css">
+    <link rel="stylesheet" href="./style/settings/text.css">
+
+    <!--GENERIC-->
+    <link rel="stylesheet" href="./style/generic/reset.css">
+    <link rel="stylesheet" href="./style/generic/box-sizing.css">
+
+    <!--BASE-->
+    <link rel="stylesheet" href="./style/base/html.css">
+
+    <!--OBJECTS-->
+    <link rel="stylesheet" href="./style/objects/wrapper.css">
+
+    <!--COMPONENTS-->
+    <link rel="stylesheet" href="./style/components/ps-button.css">
+    <link rel="stylesheet" href="./style/components/ps-input.css">
+    <link rel="stylesheet" href="./style/components/ps-radio.css">
+    <link rel="stylesheet" href="./style/components/ps-header.css">
+
+    <!--PAGES-->
+    <link rel="stylesheet" href="./style/pages/login.css">
+
+    <!--TRUMPS-->
+    <script src="./assets/script/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</head>
+
+<body>
+    <div class="ps-login">
+        <div class="ps-wrapper">
+            <header class="ps-header">
+                <div class="wrapper">
+                    <div class="image-wrapper">
+                        <img alt="Logo PetSave" class="image1" src="assets/image/dropBlood.svg">
+                        <img alt="Logo PetSave" class="image" src="assets/logo/petSaveLogo.svg">
+                    </div>
+                </div>
+            </header>
+
+            <main class="main-content">
+                <form class="left" onsubmit="cadastrar()" action="javascript:void(0)">
+                    
+                    <h1 class="main-title">
+                        <span class="up">Olá!</span>
+                        <span class="down">Vamos criar o seu cadastro!</span>
+                    </h1>
+
+                    <div class="radio-buttons">
+                        <h3 class="title">Selecione se você é:</h3>
+                        <div class="buttons">
+                            <label class="ps-radio">
+                                Tutor
+                                <input name="cargo" type="radio">
+                                <span class="checkmark"></span>
+                            </label>
+        
+                            <label class="ps-radio">
+                                Clínica Veterinária
+                                <input name="cargo" type="radio">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <input required id="fullName" class="ps-input" type="text" placeholder="Nome completo">
+                    <input required id="cityState" class="ps-input" type="text" placeholder="Cidade/Estado">
+                    <input required id="email" class="ps-input" type="email" placeholder="Email">
+                    <input required id="password" class="ps-input" type="password" placeholder="Senha">
+
+                    <button type="submit" class="ps-button">Continuar</button>
+                </form>
+                <div class="right">
+                    <img class="image" src="assets/image/right_content.svg">
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>

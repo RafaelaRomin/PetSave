@@ -1,0 +1,11 @@
+:root{
+    --ps-primary-color: #DB6364;
+    --ps-primary-color-light: #dd9c9c;
+
+    --ps-color-danger: #c70c0c;
+
+    --ps-color-gray-lighter: #f9fdfd;
+    --ps-color-gray-light: #B8B7B7;
+    --ps-color-gray: #767684;
+    --ps-color-gray-dark: #09090A;
+}

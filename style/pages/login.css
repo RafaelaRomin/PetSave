@@ -1,0 +1,46 @@
+.ps-login >.ps-wrapper >.main-content >.left{
+    max-width: 400px;
+    margin: auto;
+}
+
+.ps-login >.ps-wrapper >.main-content >.left >.radio-buttons {
+    margin-bottom: 42px;
+}
+
+.ps-login >.ps-wrapper >.main-content >.left >.radio-buttons>.title {
+    font-size: calc(var(--ps-font-size-base)+ 8px);
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.ps-login >.ps-wrapper >.main-content >.left >.radio-buttons>.buttons>.ps-radio {
+    margin-right: 70px;
+}
+
+.ps-login >.ps-wrapper >.main-content >.left >.main-title {
+    font-weight: 800px;
+    margin-bottom: 40px;
+}
+
+.ps-login >.ps-wrapper >.main-content >.left >.main-title >.up {
+    font-size: calc(var(--ps-font-size-base) + 38px);
+    font-weight: 800;
+    display: block;
+    margin-bottom: 7px;
+}
+
+.ps-login >.ps-wrapper >.main-content >.left >.main-title >.down {
+    font-size: calc(var(--ps-font-size-base) + 22px);
+    font-weight: 800;
+}
+
+/* .ps-login >.ps-wrapper >.main-content >.left >.steps {
+    display: block;
+    font-weight: 800;
+    font-size: calc(var(--ps-font-size-base) + 4px);
+    color: var(--ps-color-gray);
+    font-family: Helvetica;
+    padding-bottom: 15px;
+} */
+
+
